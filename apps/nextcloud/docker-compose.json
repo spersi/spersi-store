@@ -1,0 +1,10 @@
+{
+	"services":[
+		{
+			"name": "nextcloud",
+			"image": "nextcloud:31.0.4",
+			"isMain": true,
+			"internalPort": 80
+		}
+	]
+}
