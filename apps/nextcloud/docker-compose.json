@@ -7,11 +7,11 @@
 			"internalPort": 80,
             "volumes": [
                 {
-                  "hostPath": "${APP_DATA_DIR}/data/nextcloud:/var/www/html",
-                  "containerPath": "data",
+                  "hostPath": "${APP_DATA_DIR}/data/nextcloud",
+                  "containerPath": "/var/www/html",
                   "readOnly": false
                 }
-            ]
+         	   ]
 		}
 	]
 }
