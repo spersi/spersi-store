@@ -11,7 +11,7 @@
                   "containerPath": "/var/www/html",
                   "readOnly": false
                 }
-         	   ]
+         	   ],
 	      "environment": {
 		         "NEXTCLOUD_TRUSTED_DOMAINS": "${APP_DOMAIN}",
         		 "TRUSTED_PROXIES": "172.16.0.0/12",
