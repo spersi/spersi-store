@@ -13,6 +13,8 @@
                 }
          	   ]
 	      "environment": {
+		         "NEXTCLOUD_TRUSTED_DOMAINS": "${APP_DOMAIN}",
+        		 "TRUSTED_PROXIES": "172.16.0.0/12",
 		         "OVERWRITEPROTOCOL": "${APP_PROTOCOL:-http}"
 	      }
 		}
