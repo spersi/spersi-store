@@ -4,7 +4,7 @@
 			"name": "nextcloud",
 			"image": "nextcloud:latest",
 			"isMain": true,
-			"internalPort": 443,
+			"internalPort": 80,
             "volumes": [
                 {
                   "hostPath": "${APP_DATA_DIR}/data/nextcloud",
@@ -12,6 +12,9 @@
                   "readOnly": false
                 }
          	   ]
+	      "environment": {
+		         "OVERWRITEPROTOCOL": "${APP_PROTOCOL:-http}"
+	      }
 		}
 	]
 }
