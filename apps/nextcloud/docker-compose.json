@@ -14,7 +14,9 @@
                 	{
                 	"hostPath": "${APP_DATA_DIR}/data/nextcloud",
                 	"containerPath": "/var/www/html",
-                	"readOnly": false
+                	"readOnly": false,
+         		"shared": false,
+          		"private": false				
                 	}
         	   	   ]	
 		}
